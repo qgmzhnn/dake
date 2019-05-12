@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#ffff">
+
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal|center"
+            android:singleLine="true"
+
+            android:text="论坛"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/lunt_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:text="发表" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/lunt_et"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+
+        android:background="@drawable/yuanjiaoet"
+
+
+        android:hint="  说点什么吧。。。"
+        android:textCursorDrawable="@color/radiobutton_bg_normal"
+
+        android:visibility="visible" />
+
+</LinearLayout>

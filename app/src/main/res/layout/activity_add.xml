@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#ffff">
+
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal|center"
+            android:singleLine="true"
+
+            android:text="头像"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/select_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从相册中选择图片"/>
+
+    <Button
+        android:id="@+id/goods_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置为头像" />
+</LinearLayout>
